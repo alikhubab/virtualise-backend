@@ -1,0 +1,31 @@
+### LOGIN
+POST localhost:3900/api/auth
+Content-Type: application/json
+
+{
+  "email": "ali@mail.com",
+  "password": "12345",
+  "fcmToken": "abcsd"
+}
+
+### REGISTER
+POST localhost:3900/api/users/register
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "email": "ali@mail.com",
+  "password": "12345"
+
+}
+
+### SEND MESSAGE
+POST localhost:3900/api/messages/sendMessage
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ3OTVjZGNiYzE3ZWY5NDUwNDgzNmMiLCJuYW1lIjoiQWxpIiwiZW1haWwiOiJhbGlAbWFpbC5jb20iLCJpYXQiOjE3MDg2Mjc5NzB9.wJNUjh5Pm_PplcvygqR5Nm0d6O8kJRfIO1PxUXCTpbc
+
+
+{
+  "text": "Hello Ali",
+  "toId": "123asdadss"
+}

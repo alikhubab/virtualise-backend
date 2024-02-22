@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb+srv://test:test@cluster0.uzvafwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "port": "3900",
+  "requiresAuth": true
+}
